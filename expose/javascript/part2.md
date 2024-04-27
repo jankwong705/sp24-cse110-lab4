@@ -19,4 +19,36 @@
     D. `student['Favorite Teacher].name`
 
     E. `student.courseLoad[0]`
+13. 
+    A. The output is `'32'` because `2` maps to the string `'2'`.
 
+    B. The output is `1` because `'3'` maps to `3`.
+
+    C. The output is `3` because `null` maps to `0`.
+
+    D. The output is `'3null'` because `null` maps to `'null'`.
+
+    E. The output is `4` because `true` maps to `1`.
+
+    F. The output is `0` because `false` and `null` both map to `0`.
+
+    G. The output is `'3undefined'` because `undefined` maps to `'undefined'`.
+
+    H. The output is `Nan` because `undefined` gets converted to `NaN`. 
+14. 
+    A. The output is `true` because `'2'` gets converted to `2`.
+
+    B. The output is `false` because both `'2'` and `'12'` are strings, and `'2'` is lexicographically after `'12'`.
+
+    C. The output is `true` because `'2'` gets converted to `2`.
+
+    D. The output is `false` because we are doing a strict equality check without type conversions, so `'2'` won't be converted to `2`.
+
+    E. The output is `false` because `true` maps to `1` and `1` is not equal to `2`.
+
+    F. The output is `true` because `Boolean(2)` is `true`.
+
+15. The regular equality `==` will convert variables to different types as necessarily, but the strict equality `===` will do comparisons without type conversions. 
+16. (in `part2-question16.js`)
+17. The result would be `[ 2, 4, 6 ]`. We first pass `[1, 2, 3]` and the `doSomething` function into the `modifyArray` function. Within the loop in `modifyArray`, `doSomething` is going to be called on each element of `[1, 2, 3]`, appending the modified elements to `newArr`, which would be returned at the end. Therefore, the result is `[ 2, 4, 6 ]`.
+18. (in `part2-question18.js`)
