@@ -1,0 +1,4 @@
+1. `3` is printed. After the loop, `i` will become `3`. Because `i` is a `var` variable, it can be accessed throughout the whole function block. Hence, we can print it outside of the loop block.
+2. `150` is printed. After the loop, `discountedPrice` will become `150`. Because `discountedPrice` is a `var` variable, it can be accessed throughout the whole function block. Hence, we can print it outside of the loop block.
+3. `150` is printed.  Because `finalPrice` is a `var` variable, it can be accessed throughout the function block, so it can also be changed within the loop. After the loop, `finalPrice` will become `150`. Because `finalPrice` is a `var` variable, it can be accessed throughout the whole function block. Hence, we can print it outside of the loop block after we changed it inside the loop block.
+4. 
