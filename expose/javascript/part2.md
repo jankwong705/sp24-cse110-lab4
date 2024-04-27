@@ -10,3 +10,13 @@
 10. `3` is printed. Because `length` is a `const` variable, it can be accessed within the block it is defined in (just like a `let` variable). Because the loop block is within the function block, we can access `length` inside it. As we exit the loop block, we are still in the function block, so we can print it. Because we didn't reassign it, no errors are thrown.
 11. `[ 50, 100, 150 ]` is returned. Because `discounted` is a `const` variable, it can be accessed within the block it is defined in (just like a `let` variable). Because the loop block is within the function block, we can access `discounted` inside it. Because we didn't reassign `discounted` (we are just adding elements to it), no errors are thrown. As we exit the loop block, we are still within the function block, so we can return it.
 12. 
+    A. `student.name`
+
+    B. `student['Grad Year]`
+
+    C. `student.greeting()`
+
+    D. `student['Favorite Teacher].name`
+
+    E. `student.courseLoad[0]`
+
