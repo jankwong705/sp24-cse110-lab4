@@ -1,0 +1,2 @@
+1. The bug is that `result` is simply a concatenation of `num1` and `num2`. Since `num1` and `num2` are both of type `string`. Doing `num1 + num2` will simply concatenate them, so `result` will not be the accurate sum of the numbers, instead will just be the concatenation of the string representations of the two numbers.
+2. I would convert both `num1` and `num2` to be `number` before adding them, so `result` will be the arithmetic sum of the two numbers instead of a concatenation of two strings.
