@@ -1,4 +1,3 @@
-
 function discountPrices(prices, discount) {
     const discounted = [];
     const length = prices.length;
