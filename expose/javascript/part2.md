@@ -52,3 +52,4 @@
 16. (in `part2-question16.js`)
 17. The result would be `[ 2, 4, 6 ]`. We first pass `[1, 2, 3]` and the `doSomething` function into the `modifyArray` function. Within the loop in `modifyArray`, `doSomething` is going to be called on each element of `[1, 2, 3]`, appending the modified elements to `newArr`, which would be returned at the end. Therefore, the result is `[ 2, 4, 6 ]`.
 18. (in `part2-question18.js`)
+19. The output is `1 4 3 2`. The program prints out `1 4 3` immediately and prints out `2` after a second.
